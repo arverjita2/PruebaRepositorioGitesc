@@ -13,12 +13,12 @@ namespace ArrayApplication2
             int[] n = new int[10];
             for (int i=0; i<10;i++)
             {
-                n[i] = i + 100;
+                n[i] = i + 150;
 
             }
             foreach(int j in n)
             {
-                int i = j - 100;
+                int i = j - 150;
                 Console.WriteLine("Element[{0}]={1}", i, j);
             }
             Console.ReadKey();
